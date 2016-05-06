@@ -531,4 +531,10 @@ hr {
     color: pink;
     background-color: teal; }
 
+header {
+  background-image: url(../img/header.jpg); }
+
+.head-logo {
+  float: center; }
+
 /*# sourceMappingURL=main.css.map */
