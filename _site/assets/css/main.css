@@ -533,11 +533,28 @@ hr {
 
 header {
   background-image: url(../img/header.jpg);
-  background-image-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: #ecf0f1;
+      Font-size: 14px;
+      Font-weight: 700;
+      text-transform: uppercase; }
+      header nav a:hover {
+        color: #f0b0d2; }
 
 .head-logo {
-  margin: 100px auto; }
+  height: 300px;
+  width: 100%;
+  padding: 550px 0 200px 0;
+  background-image: url(../img/moeClean.png);
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main.css.map */
