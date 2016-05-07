@@ -532,9 +532,12 @@ hr {
     background-color: teal; }
 
 header {
-  background-image: url(../img/header.jpg); }
+  background-image: url(../img/header.jpg);
+  background-image-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .head-logo {
-  float: center; }
+  margin: 100px auto; }
 
 /*# sourceMappingURL=main.css.map */
