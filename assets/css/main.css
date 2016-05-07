@@ -557,4 +557,16 @@ header {
   background-position: center;
   background-repeat: no-repeat; }
 
+#about {
+  background-color: #ecf0f1;
+  background-image: url(../img/pattern.png); }
+  #about h3 {
+    color: #2e6792;
+    text-align: center;
+    margin: 50px 20px 30px 20px; }
+  #about p {
+    color: #2e6792;
+    text-align: center;
+    margin: 0 20px 0 20px; }
+
 /*# sourceMappingURL=main.css.map */
