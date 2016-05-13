@@ -380,7 +380,7 @@ body {
   background-color: white;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", Fira Sans, sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -635,7 +635,9 @@ header {
   margin: 0 auto;
   padding-bottom: 30px; }
   .contact-conatiner h4 {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    font-family: "Passion One", cursive;
+    letter-spacing: 0.05em; }
   .contact-conatiner li {
     color: #bdc0c1; }
 
@@ -666,6 +668,8 @@ header {
         background-color: #c08da8; }
 
 h3 {
-  color: #ecf0f1; }
+  color: #ecf0f1;
+  font-family: "Passion One", cursive;
+  letter-spacing: 0.05em; }
 
 /*# sourceMappingURL=main.css.map */
