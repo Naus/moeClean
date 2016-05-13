@@ -578,4 +578,52 @@ header {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
 
+#contact {
+  background-image: url(../img/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0 50px 0; }
+
+.contact-logo {
+  padding-bottom: 10px; }
+
+.contact-conatiner {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+  .contact-conatiner h4 {
+    color: #ecf0f1; }
+  .contact-conatiner li {
+    color: #bdc0c1; }
+
+.form-container {
+  color: #ecf0f1;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+  .form-container form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .form-container form input, .form-container form textarea {
+      border: 2px solid #ecf0f1;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.1);
+      transition: border-color #f0b0d2; }
+      .form-container form input:hover, .form-container form textarea:hover {
+        border-color: #bdc0c1; }
+      .form-container form input:focus, .form-container form textarea:focus {
+        border-color: #f0b0d2;
+        box-shadow: #f0b0d2;
+        outline: none; }
+    .form-container form .send-cta {
+      background: rgba(0, 0, 0, 0.3); }
+      .form-container form .send-cta:hover {
+        background-color: #f0b0d2; }
+      .form-container form .send-cta:focus {
+        background-color: #c08da8; }
+
+h3 {
+  color: #ecf0f1; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+#contact
+  background:
+    image: url(../img/footer.jpg)
+    size: cover
+    position: center
+    repeat: no-repeat 
+  padding: 50px 0 50px 0
+
+.contact-logo
+  padding-bottom: 10px
+  
+
+.contact-conatiner
+  text-align: center
+  margin: 0 auto
+  padding-bottom: 30px
+
+  
+  h4
+    color: $moewhite
+    
+  li
+    color: shade($moewhite, 20%)
+  
+
+  
+.form-container
+  color: $moewhite
+  margin: 0 auto
+  padding-bottom: 30px
+  
+  
+
+  form
+    max-width: 700px
+    margin: 0 auto
+    padding-top: 50px
+    
+    input, textarea
+      border: 2px solid $moewhite
+      width: 100%
+      background: transparentize(#000, 0.9)
+      transition: border-color $moepink
+      
+      &:hover 
+        border-color: shade($moewhite, 20%)
+    
+  
+      &:focus 
+        border-color: $moepink
+        box-shadow: $moepink
+        outline: none
+  
+      
+    .send-cta 
+      background: transparentize(#000, 0.7)
+      
+      &:hover 
+        background-color: $moepink
+    
+  
+      &:focus 
+        background-color: shade($moepink, 20%)
+        
+      
+      
+h3
+  color: $moewhite
