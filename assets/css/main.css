@@ -724,7 +724,6 @@ header {
         margin: 0 0; } }
   #contact h4 {
     color: #ecf0f1;
-    font-family: "Passion One", cursive;
     letter-spacing: 0.05em;
     text-align: center; }
 
@@ -740,7 +739,6 @@ header {
   padding-bottom: 30px; }
   .contact-conatiner h4 {
     color: #ecf0f1;
-    font-family: "Passion One", cursive;
     letter-spacing: 0.05em; }
   .contact-conatiner ul {
     padding-bottom: 20px; }
@@ -775,7 +773,6 @@ header {
 
 h3 {
   color: #ecf0f1;
-  font-family: "Passion One", cursive;
   letter-spacing: 0.05em;
   text-align: center; }
 
