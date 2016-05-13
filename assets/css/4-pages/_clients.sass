@@ -7,7 +7,7 @@
   h3
     color: $moeblue
     text-align: center
-    margin: 50px 20px 30px 20px
+    margin: 50px 100px 30px 100px
     
     @media (max-width: 800px)
       margin: 0 0 30px 0
@@ -18,4 +18,72 @@
     //text-align: center
     margin: 0 20px 0 20px
     
+
+  .faces
+    list-style: none
+      
+      
+  .face
+    position: relative
+    top: 50px
     
+    @media (max-width: 800px)
+      top: 130px
+      
+    @media (max-width: 380px)
+      top: 280px 
+    
+  .bubble
+    display: block
+    position: absolute
+    left: 100%
+    bottom: 50%
+    margin-left: 5px
+    width: 400px
+    background-color: $moeblue
+    color: $moewhite
+    padding: 20px
+    border-radius: 40px 40px 40px 5px
+    border: 3px solid #60acdb
+    
+    @media (max-width: 800px)
+      width: 450px
+      
+    @media (max-width: 500px)
+      width: 250px
+      
+    @media (max-width: 380px)
+      width: 150px 
+     
+      
+  .face1
+    height: 100px
+    width: 100px
+    background:
+      image: url(../img/face1.png)
+      size: cover
+      position: center
+    margin-bottom: 50px
+    
+    @media (max-width: 800px)
+      margin-bottom: 100px
+      
+    @media (max-width: 380px)
+      margin-bottom: 200px 
+      
+      
+      
+  .face2
+    height: 100px
+    width: 100px
+    background:
+      image: url(../img/face2.png)
+      size: cover
+      position: center
+    margin-bottom: 50px
+    
+    @media (max-width: 800px)
+      margin-bottom: 130px
+      
+    @media (max-width: 380px)
+      margin-bottom: 250px 
