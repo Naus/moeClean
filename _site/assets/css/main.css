@@ -633,6 +633,7 @@ header {
         padding-top: 50px; } }
   #biz-services p {
     color: #ecf0f1;
+    text-align: center;
     margin: 0 20px 0 20px; }
   @media (max-width: 800px) {
     #biz-services {
