@@ -588,6 +588,7 @@ header {
       background-size: 300px 300px; } }
 
 #about {
+  padding-bottom: 50px;
   background-color: #ecf0f1;
   background-image: url(../img/pattern.png); }
   #about h3 {
@@ -601,10 +602,17 @@ header {
 
 #services {
   background-color: #f0b0d2; }
+  @media (max-width: 800px) {
+    #services {
+      padding-bottom: 50px; } }
   #services h3 {
     color: #ecf0f1;
     text-align: center;
-    margin: 50px 20px 30px 20px; }
+    margin: 50px 0 30px 0; }
+    @media (max-width: 800px) {
+      #services h3 {
+        margin: 0 0 30px 0;
+        padding-top: 50px; } }
   #services p {
     color: #ecf0f1;
     text-align: center;
@@ -612,13 +620,27 @@ header {
 
 #biz-services {
   background-color: #60acdb; }
+  #biz-services img {
+    padding-bottom: 0px;
+    margin-bottom: 0px; }
   #biz-services h3 {
     color: #ecf0f1;
     text-align: center;
-    margin: 50px 20px 30px 20px; }
+    margin: 50px 0 30px 0; }
+    @media (max-width: 800px) {
+      #biz-services h3 {
+        margin: 0 0 30px 0;
+        padding-top: 50px; } }
   #biz-services p {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
+  @media (max-width: 800px) {
+    #biz-services {
+      padding-bottom: 50px; } }
+
+@media (max-width: 800px) {
+  .img-hide {
+    display: none; } }
 
 #contact {
   background-image: url(../img/footer.jpg);
