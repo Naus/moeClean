@@ -637,6 +637,18 @@ header {
   .img-hide {
     display: none; } }
 
+#client {
+  padding-bottom: 50px;
+  background-color: #ecf0f1;
+  background-image: url(../img/pattern.png); }
+  #client h3 {
+    color: #2e6792;
+    text-align: center;
+    margin: 50px 20px 30px 20px; }
+  #client p {
+    color: #2e6792;
+    margin: 0 20px 0 20px; }
+
 #contact {
   background-image: url(../img/footer.jpg);
   background-size: cover;
