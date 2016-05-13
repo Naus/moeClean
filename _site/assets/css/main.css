@@ -568,9 +568,6 @@ header {
           margin: 0 10px 0 10px; } }
     @media (max-width: 500px) {
       header nav {
-        margin: 30px 30px 0 30px; } }
-    @media (max-width: 350px) {
-      header nav {
         margin: 30px 20px 0 20px; } }
 
 .head-logo {
