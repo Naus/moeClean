@@ -722,6 +722,11 @@ header {
     @media (max-width: 500px) {
       #contact h3 {
         margin: 0 0; } }
+  #contact h4 {
+    color: #ecf0f1;
+    font-family: "Passion One", cursive;
+    letter-spacing: 0.05em;
+    text-align: center; }
 
 .contact-logo {
   margin: 0 100px 10px 100px; }
