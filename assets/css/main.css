@@ -599,6 +599,13 @@ header {
       #about p {
         margin: 0 10px 0 10px; } }
 
+.about-img {
+  height: 400px;
+  width: auto; }
+  @media (max-width: 850px) {
+    .about-img {
+      height: auto; } }
+
 #services {
   background-color: #f0b0d2; }
   @media (max-width: 800px) {
