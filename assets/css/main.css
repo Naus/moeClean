@@ -519,6 +519,17 @@ hr {
     color: #ecf0f1;
     background-color: pink; }
 
+.cta-box-blu {
+  text-align: center;
+  border: 2px solid #ecf0f1;
+  margin: 25px auto 0 auto;
+  padding: 5px;
+  cursor: pointer; }
+  .cta-box-blu:hover {
+    color: #ecf0f1;
+    color: #ecf0f1;
+    background-color: lightblue; }
+
 header {
   background-image: url(../img/header.jpg);
   background-size: cover;
@@ -622,12 +633,15 @@ header {
   #services p {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
+    #services p b {
+      font-size: 18px; }
     @media (max-width: 800px) {
       #services p {
         margin: 0 10px 0 10px; } }
 
 #biz-services {
-  background-color: #60acdb; }
+  padding-bottom: 50px;
+  background-color: #76accf; }
   #biz-services h3 {
     color: #ecf0f1;
     text-align: center;
@@ -639,6 +653,8 @@ header {
   #biz-services p {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
+    #biz-services p b {
+      font-size: 18px; }
     @media (max-width: 800px) {
       #biz-services p {
         margin: 0 10px 0 10px; } }
