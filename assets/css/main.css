@@ -508,6 +508,25 @@ hr {
     .service-cta {
       font-size: 12px; } }
 
+.job-cta {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  padding: 0.4rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2e6792;
+  text-decoration: none;
+  text-alighn: center;
+  cursor: pointer; }
+  .job-cta:hover {
+    color: #2e6792; }
+  @media (max-width: 397px) {
+    .job-cta {
+      font-size: 12px; } }
+
 .cta-box {
   text-align: center;
   border: 2px solid #ecf0f1;
@@ -529,6 +548,17 @@ hr {
     color: #ecf0f1;
     color: #ecf0f1;
     background-color: lightblue; }
+
+.job-cta-box {
+  text-align: center;
+  border: 2px solid #2e6792;
+  margin: 25px auto 0 auto;
+  padding: 5px;
+  cursor: pointer; }
+  .job-cta-box:hover {
+    color: #2e6792;
+    color: #2e6792;
+    background-color: #76accf; }
 
 header {
   background-image: url(../img/header.jpg);
