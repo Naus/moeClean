@@ -23,6 +23,34 @@
   @media (max-width: 397px)
     font-size: 12px
 
+.pay-cta
+  border: none
+  outline: none
+  margin: 0 10px
+  border-radius: 0.5rem
+  padding: 3px 10px
+  font-weight: 700
+  font-size: 16px
+  color: $moewhite
+  text-decoration: none
+  text-alighn: center
+  cursor: pointer
+  background:
+    color: transparentize($moepink, 0.4)
+
+  &:hover
+    color: $moeblue
+    background:
+      color: $moepink
+
+
+  @media (max-width: 500px)
+    display: block
+    width: auto
+    position: absolute
+    top: 80px
+    left: 120px
+
 .job-cta
   display: block
   width: 100%

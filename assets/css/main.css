@@ -508,6 +508,30 @@ hr {
     .service-cta {
       font-size: 12px; } }
 
+.pay-cta {
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  border-radius: 0.5rem;
+  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+  text-alighn: center;
+  cursor: pointer;
+  background-color: rgba(240, 176, 210, 0.6); }
+  .pay-cta:hover {
+    color: #2e6792;
+    background-color: #f0b0d2; }
+  @media (max-width: 500px) {
+    .pay-cta {
+      display: block;
+      width: auto;
+      position: absolute;
+      top: 80px;
+      left: 120px; } }
+
 .job-cta {
   display: block;
   width: 100%;
