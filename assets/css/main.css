@@ -595,6 +595,9 @@ header {
   #about p {
     color: #2e6792;
     margin: 0 20px 0 20px; }
+    @media (max-width: 800px) {
+      #about p {
+        margin: 0 10px 0 10px; } }
 
 #services {
   background-color: #f0b0d2; }
@@ -607,31 +610,41 @@ header {
     margin: 50px 0 30px 0; }
     @media (max-width: 800px) {
       #services h3 {
-        margin: 0 0 30px 0;
+        margin: 0 0 10px 0;
         padding-top: 50px; } }
   #services p {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
+    @media (max-width: 800px) {
+      #services p {
+        margin: 0 10px 0 10px; } }
 
 #biz-services {
   background-color: #60acdb; }
-  #biz-services img {
-    padding-bottom: 0px;
-    margin-bottom: 0px; }
   #biz-services h3 {
     color: #ecf0f1;
     text-align: center;
     margin: 50px 0 30px 0; }
     @media (max-width: 800px) {
       #biz-services h3 {
-        margin: 0 0 30px 0;
+        margin: 0 0 10px 0;
         padding-top: 50px; } }
   #biz-services p {
     color: #ecf0f1;
     margin: 0 20px 0 20px; }
+    @media (max-width: 800px) {
+      #biz-services p {
+        margin: 0 10px 0 10px; } }
   @media (max-width: 800px) {
     #biz-services {
       padding-bottom: 50px; } }
+
+.img-show {
+  display: none; }
+  @media (max-width: 800px) {
+    .img-show {
+      display: block;
+      margin: 0 auto 20px auto; } }
 
 @media (max-width: 800px) {
   .img-hide {
@@ -652,6 +665,9 @@ header {
   #client p {
     color: #2e6792;
     margin: 0 20px 0 20px; }
+    @media (max-width: 800px) {
+      #client p {
+        margin: 0 10px 0 10px; } }
   #client .faces {
     list-style: none; }
   #client .face {
