@@ -3,7 +3,7 @@ $( document ).ready(function() {
   // funcitions to call ----------------------
 
   $(function() {
-  	smoothScroll(300);
+  	smoothScroll(600);
   });
 
 

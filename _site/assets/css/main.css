@@ -879,4 +879,34 @@ h3 {
   text-align: center;
   color: #ecf0f1; }
 
+footer {
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.footer-nav-text {
+  color: #ecf0f1;
+  font-size: 16px;
+  margin: 30px 35px 0 35px;
+  float: left; }
+  @media (max-width: 500px) {
+    .footer-nav-text {
+      margin: 10px 0 0 0;
+      padding-top: 20px;
+      display: block;
+      float: none;
+      text-align: center; } }
+  .footer-nav-text:hover {
+    color: #f798c6; }
+
+.copyright {
+  color: #ecf0f1;
+  margin: 32px 50px 0 0;
+  float: right;
+  font-size: 12px; }
+  @media (max-width: 500px) {
+    .copyright {
+      margin: 20px 0 10px 0;
+      float: none;
+      text-align: center; } }
+
 /*# sourceMappingURL=main.css.map */
