@@ -515,15 +515,15 @@ hr {
   border-radius: 0.5rem;
   padding: 3px 10px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   color: #ecf0f1;
   text-decoration: none;
   text-alighn: center;
   cursor: pointer;
-  background-color: rgba(240, 176, 210, 0.6); }
+  background-color: rgba(247, 152, 198, 0.6); }
   .pay-cta:hover {
     color: #2e6792;
-    background-color: #f0b0d2; }
+    background-color: #f798c6; }
   @media (max-width: 500px) {
     .pay-cta {
       display: block;
@@ -598,7 +598,7 @@ header {
     Font-weight: 700;
     text-transform: uppercase; }
     header h1 span {
-      color: #f0b0d2;
+      color: #f798c6;
       Font-size: 26px; }
     @media (max-width: 500px) {
       header h1 {
@@ -614,7 +614,7 @@ header {
       Font-weight: 700;
       text-transform: uppercase; }
       header nav a:hover {
-        color: #f0b0d2; }
+        color: #f798c6; }
       @media (max-width: 500px) {
         header nav a {
           Font-size: 16px;
@@ -672,7 +672,7 @@ header {
       height: auto; } }
 
 #services {
-  background-color: #f0b0d2; }
+  background-color: #f798c6; }
   @media (max-width: 800px) {
     #services {
       padding-bottom: 50px; } }
@@ -848,19 +848,19 @@ header {
       border: 2px solid #ecf0f1;
       width: 100%;
       background: rgba(0, 0, 0, 0.1);
-      transition: border-color #f0b0d2; }
+      transition: border-color #f798c6; }
       .form-container form input:hover, .form-container form textarea:hover {
         border-color: #bdc0c1; }
       .form-container form input:focus, .form-container form textarea:focus {
-        border-color: #f0b0d2;
-        box-shadow: #f0b0d2;
+        border-color: #f798c6;
+        box-shadow: #f798c6;
         outline: none; }
     .form-container form .send-cta {
       background: rgba(0, 0, 0, 0.3); }
       .form-container form .send-cta:hover {
-        background-color: #f0b0d2; }
+        background-color: #f798c6; }
       .form-container form .send-cta:focus {
-        background-color: #c08da8; }
+        background-color: #c67a9e; }
 
 h3 {
   color: #ecf0f1;
