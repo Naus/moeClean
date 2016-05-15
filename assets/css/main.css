@@ -530,7 +530,8 @@ hr {
       width: auto;
       position: absolute;
       top: 80px;
-      left: 120px; } }
+      left: 120px;
+      font-size: 14px; } }
 
 .job-cta {
   display: block;
@@ -623,14 +624,24 @@ header {
           justify-content: center;
           float: left;
           margin: 0 15px 0 15px; } }
-      @media (max-width: 350px) {
+      @media (max-width: 365px) {
         header nav a {
           Font-size: 14px;
           display: flex;
           flex-directions: row;
           justify-content: center;
           float: left;
-          margin: 0 10px 0 10px; } }
+          margin: 0 10px 0 10px;
+          Font-size: 14px; } }
+      @media (max-width: 321px) {
+        header nav a {
+          Font-size: 14px;
+          display: flex;
+          flex-directions: row;
+          justify-content: center;
+          float: left;
+          margin: 0 10px 0 10px;
+          Font-size: 13px; } }
     @media (max-width: 500px) {
       header nav {
         margin: 30px 20px 0 20px; } }
