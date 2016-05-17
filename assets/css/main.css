@@ -834,6 +834,11 @@ header {
     .contact-logo {
       margin: 0 0 10px 0; } }
 
+.contact-profile {
+  border-radius: 50%;
+  height: 100px;
+  width: auto; }
+
 .contact-conatiner {
   text-align: center;
   margin: 0 auto;
