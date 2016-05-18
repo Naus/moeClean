@@ -837,7 +837,11 @@ header {
 .contact-profile {
   border-radius: 50%;
   height: 100px;
-  width: auto; }
+  width: auto;
+  margin: 0 100px; }
+  @media (max-width: 500px) {
+    .contact-profile {
+      margin: 0 0; } }
 
 .contact-conatiner {
   text-align: center;
